@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="LOGIN"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="24sp" />
+
+
+    <ImageView
+        android:layout_width="309dp"
+        android:layout_height="136dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo_sp" />
+
+    <EditText
+        android:id="@+id/login_id"
+        android:layout_width="match_parent"
+        android:hint="Enter ID"
+        android:layout_height="50dp" />
+
+    <EditText
+        android:id="@+id/login_pw"
+        android:hint="Enter Password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_button"
+        android:layout_marginBottom="5dp"
+        android:text="LOGIN" />
+
+
+    <TextView
+        android:id="@+id/tv_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:text="회원이 아니신가요?" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

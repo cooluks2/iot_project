@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_grd"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="408dp"
+        android:layout_height="533dp"
+        android:layout_marginTop="200dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="263dp"
+            android:layout_height="198dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/logo_wh" />
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/btn_login_ex"
+            android:backgroundTint="@color/white"
+            android:text="LOGIN"
+            android:textColor="#FF9D9D"
+            app:backgroundTint="@color/white" />
+
+        <Button
+            android:id="@+id/btn_join"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_login_ex"
+            android:textColor="#FF9D9D"
+            android:backgroundTint="@color/white"
+
+            android:text="JOIN"
+            app:backgroundTint="@color/white" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
